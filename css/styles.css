@@ -1,0 +1,27 @@
+.jumbotron{
+  font-family: Fredericka the Great;
+  text-align: center;
+}
+
+
+body {
+  list-style: none;
+  font-family: Averia Serif Libre;
+  text-align: center;
+}
+
+.panel-xl{
+  font-size: 40px;
+  border: 1px solid green;
+}
+
+.btn-xl{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width:100%;
+}
+
+#showForm, #userDetailsForm, #plotDetailsForm{
+  display: none;
+}
