@@ -15,7 +15,39 @@
   <body>
     <div class="container-fluid">
       <div class="jumbotron">
-        <h1>PLANT TIME!</h1>
+        <h1><span class="glyphicon glyphicon-leaf"></span>PLANT TIME!</h1>
+      </div>
+
+      <div class="test">
+        <p>GLYPHICONS I WANT TO REMEMBER</p>
+        <span class="glyphicon glyphicon-picture"></span>
+        <span class="glyphicon glyphicon-tint"></span>
+        <span class="glyphicon glyphicon-list"></span>
+        <span class="glyphicon glyphicon-align-justify"></span>
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="glyphicon glyphicon-question-sign"></span>
+        <span class="glyphicon glyphicon-ok-sign"></span>
+        <span class="glyphicon glyphicon-remove-sign"></span>
+        <span class="glyphicon glyphicon-share-alt"></span>
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="glyphicon glyphicon-globe"></span>
+        <span class="glyphicon glyphicon-heart-empty"></span>
+        <span class="glyphicon glyphicon-phone"></span>
+        <span class="glyphicon glyphicon-record"></span>
+        <span class="glyphicon glyphicon-flash"></span>
+        <span class="glyphicon glyphicon-earphone"></span>
+        <span class="glyphicon glyphicon-stats"></span>
+        <span class="glyphicon glyphicon-earphone"></span>
+        <span class="glyphicon glyphicon-tent"></span>
+        <span class="glyphicon glyphicon-ice-lolly"></span>
+        <span class="glyphicon glyphicon-piggy-bank"></span>
+        <span class="glyphicon glyphicon-education"></span>
+        <span class="glyphicon glyphicon-sunglasses"></span>
+
+        <span class="glyphicon glyphicon-camera"></span>
+        <span class="glyphicon glyphicon-cloud"></span>
+        <span class="glyphicon glyphicon-tree-conifer"></span>
       </div>
 
       <!-- Nav tabs -->
@@ -46,13 +78,31 @@
               <h2 class="well">FIND A PLOT!</h2>
               <form id="addPlotForm">
                 <div class="form-group" id="radioInput"><!-- NOTE: radio input -->
-                  <h3>CHOICE</h3>
+                  <h3>Plot Size</h3>
                   <input type="radio" name="pizzaSize" value="Small" checked> Small<br>
                   <input type="radio" name="pizzaSize" value="Medium"> Medium<br>
                   <input type="radio" name="pizzaSize" value="Large"> Large
                 </div>
                 <div class="form-group" id="addPlotDetails"><!-- NOTE: check-boxes -->
-                  <h3>CHOICE</h3>
+                  <h3><span class="glyphicon glyphicon-grain"></span>Available Plants</h3>
+
+                  <div class="dropdown">
+                    <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Types of Available Food
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-header"><a href="#">Vegetables</a></li>
+                      <li></li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-header"><a href="#"><span class="glyphicon glyphicon-apple"></span> Fruits</a></li>
+                      <li></li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-header"><a href="#"><span class="glyphicon glyphicon-tree-deciduous"></span>Nuts</a></li>
+                      <li></li>
+                    </ul>
+                  </div>
+
                   <div class="row">
                     <div class="col-xs-4">
                       <label>
@@ -112,22 +162,7 @@
               <h2 class="well">PLOT DETAILS</h2>
               <div class="" id="plotDetails">
 
-                <div class="dropdown">
-                  <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    SOME AREA STUFF MAYBE
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-header"><a href="#">some stuff</a></li>
-                    <li></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header"><a href="#">some new stuff</a></li>
-                    <li></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header"><a href="#">some OTHER stuff</a></li>
-                    <li></li>
-                  </ul>
-                </div>
+                repeat plot details here--append html
 
               </div>
             </div><!-- NOTE: end  group item div-->
@@ -164,7 +199,7 @@
                 <label for="userLastName"></label>
               </div>
               <div class="form-group">
-                <input class="form-control" id="userIdName" type="text" placeholder="" required>
+                <input class="form-control" id="userIdName" type="text" placeholder="user ID">
                 <label for="userName"></label>
               </div>
               <div class="form-group">
@@ -173,7 +208,7 @@
               </div>
               <div class="form-group">
                 <label for="userEmail"></label>
-                <input class="form-control" id="userEmail" type="text" placeholder="Email">
+                <input class="form-control" id="userEmail" type="text" placeholder="Email" required>
               </div>
               <div class="btn-group">
                 <button class="btn btn-lg btn-primary" type="submit">Submit</button>
