@@ -2,36 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Fredericka+the+Great|Averia+Serif+Libre" rel="stylesheet">
     <link rel="shortcut icon" href="img/plant.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- CCS for the effects-->
     <link href="css/effects.min.css" rel="stylesheet">
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-    <script src="js/jquery-3.1.0.js"></script>
-    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <!--  Bootstrap & jQuery -->
+      <script src="js/production.min.js"></script>
     <script src="js/scripts.js"></script>
 
-
-
-
-
-
-
-<!-- CCS for the effects-->
-
-<!-- Font Icons -->
-<link rel="stylesheet" href="css/font-awesome.min.css">
-
-<!-- Custom Fonts -->
-<link rel="stylesheet" href="fonts/stylesheet.css">
     <title>Secret Plotters</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="jumbotron">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
         <h1><span class="glyphicon glyphicon-leaf"></span>PLANT TIME!</h1>
-      </div>
 
     <!-- NOTE:  look into create an avatar, create a secret plotter/create a secret plot//add graphs for things that plants will need, ADD seasons plant is alive-farmer's almanac-->
 
@@ -81,19 +70,23 @@
 
         <li role="presentation"><a href="#something5" aria-controls="something5" role="tab" data-toggle="tab">something5</a></li>
       </ul>
-
       <!-- Tab panes -->
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="home"><div class="section well"><h1></h1></div></div>
-        <div role="tabpanel" class="tab-pane" id="addPlot"><div class="section well"><h1><button class="btn btn-xl" id="readyToPlantButton">Ready to PLOT?</button></h1></div></div>
-        <div role="tabpanel" class="tab-pane" id="findPlot"><div class="section well"><h1>Find a Plot</h1></div></div>
-        <div role="tabpanel" class="tab-pane" id="something3"><div class="section well"><h1>something3</h1></div></div>
-        <div role="tabpanel" class="tab-pane" id="something4"><div class="section well"><h1>something4</h1></div></div>
-        <div role="tabpanel" class="tab-pane" id="something5"><div class="section well"><h1>something5</h1></div></div>
-      </div>
-    </div> <!-- NOTE: end tracksTab div -->
+        <div role="tabpanel" class="tab-pane" id="addPlot"><div class="section well">
+          <a class="btn btn-lg btn-info" href="#" id="addNewPlot">
+            <i class="fa fa-apple fa-lg fa-2x pull-left"></i>Add a New Plot?<br></a>
 
-      <div class="section" id="showForm">
+          </div></div>
+          <div role="tabpanel" class="tab-pane" id="findPlot"><div class="section well"><h1>Find a Plot</h1></div></div>
+          <div role="tabpanel" class="tab-pane" id="something3"><div class="section well"><h1>something3</h1></div></div>
+          <div role="tabpanel" class="tab-pane" id="something4"><div class="section well"><h1>something4</h1></div></div>
+          <div role="tabpanel" class="tab-pane" id="something5"><div class="section well"><h1>something5</h1></div></div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="section" id="showForm">
         <div class="row"><!-- NOTE: row1 div -->
           <div class="col-xs-6"><!-- NOTE: col1 div -->
             <div class="list-group-item">

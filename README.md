@@ -35,7 +35,7 @@ _Please feel free to contact stephanie.spears1@gmail.com for support._
 ## Technologies Used
 
 * _JavaScript_
-* _jQuery_
+* _Production.min (combines Bootstrap and jQuery)_
 * _BootStrap_
 
 ### License

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#readyToPlantButton").click(function(event){
+  $("#addNewPlot").click(function(event){
     event.preventDefault();
     $("#readyToPlantButton").toggle();
 
